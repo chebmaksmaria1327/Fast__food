@@ -7,6 +7,10 @@ body {
     height: 100%;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .wrapper {
     min-height: 100%;
 }
@@ -33,25 +37,51 @@ h6 {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+}
 
-.container {}
 
-.hero {}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.hero {
+    background: url(../img/content/обложка.jpg) no-repeat center/cover;
+    height: 100vh;
+
+}
 
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px;
 }
 
-.logo {}
+.logo {
+    width: 52px;
+    height: 42px;
+}
 
 .logo__pic {}
 
 .nav {}
 
-.nav__list {}
+.nav__list {
+    display: flex;
 
-.nav__item {}
+}
+
+.nav__item {
+    margin-right: 28px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
 
 .nav__link {}
 
